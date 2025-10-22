@@ -1,3 +1,5 @@
+Warning: you need the Metaspex product to compile this application. Please contact us at info@metaspex.com to get access to the Metaspex product.
+
 This sample Metaspex application leverages the service construct.
 
 A service (c.f. the reference guide) allows a server to respond to client HTTP JSON requests.

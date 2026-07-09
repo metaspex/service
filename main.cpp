@@ -24,8 +24,8 @@ using namespace hx2a;
 
 class query: public element<>
 {
-  HX2A_ELEMENT(query, "query", element,
-	       ((message, "message")));
+  HX2A_TYPE(query, "query", element,
+            ((message, "message")));
 public:
 
   slot<string> message;

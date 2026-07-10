@@ -4,13 +4,13 @@ This sample Metaspex application leverages the service construct.
 
 A service (c.f. the reference guide) allows a server to respond to client HTTP JSON requests.
 
-Apply the instructions below in the debug or opt directory of one of the Web servers.
+Apply the instructions below in the `debug` or `opt` directory of one of the Web servers.
 
 To compile:
 
     make
 
-Go down (cd) into the Web server of your choice (apache or nginx) and the variant (debug or opt).
+Go down (`cd`) into the Web server of your choice (`apache` or `nginx`) and the variant (`debug` or `opt`).
 
 To load (or reload) the module in the Web server:
 

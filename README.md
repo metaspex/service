@@ -1,4 +1,4 @@
-Warning: you need the Metaspex product to compile this application. Please contact us at info@metaspex.com to get access to Metaspex.
+Warning: you need the [Metaspex](http://metaspex.com) product to compile this application. Please contact us at info@metaspex.com to get access to [Metaspex](http://metaspex.com).
 
 This sample Metaspex application leverages the service construct.
 
@@ -14,17 +14,17 @@ Go down (cd) into the Web server of your choice (apache or nginx) and the varian
 
 To load (or reload) the module in the Web server:
 
-make server
+    make server
 
 To test that the module was properly installed (use port 8080 for the default Apache configuration and 8081 for Nginx):
 
     curl http://localhost:8081/_
 
-It should display the "Ave" message, which is something like:
+It should display the `"Ave"` message, which is something like:
 
     {"hx2a":"Ave","Nginx version":"1.20.2","hx2a version":"2.0.3","hx2a build date":"Mar 14 2022 09:01:41"}
 
-To test the "echo" service (same remark on port number):
+To test the `echo` service (same remark on port number):
 
     curl http://localhost:8081/echo -d '{"message": "Hello"}'
 
@@ -32,7 +32,7 @@ It should display something like:
 
     {"ok":1,"msg":"Hello from 127.0.0.1"}
 
-You can change the string "Hello" and see what happens.
+You can change the string `"Hello"` and see what happens.
 
 In case of failure, the log files are configured to be written locally. Have a look at them when something fails.
 The configuration file has a commented-out option to initiate tracing, which is slowing down the application, but

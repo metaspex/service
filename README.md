@@ -1,4 +1,4 @@
-Warning: you need the [Metaspex](http://metaspex.com) product to compile this application. Please contact us at info@metaspex.com to get access to [Metaspex](http://metaspex.com).
+Warning: you need the [Metaspex](http://metaspex.com) product to compile this application. Please contact us at info@metaspex.com to get access to Metaspex.
 
 This sample Metaspex application leverages the service construct.
 
